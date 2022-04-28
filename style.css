@@ -1,0 +1,13 @@
+body{
+    background-color: pink;
+}
+#calculator{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column wrap;
+}
+#display{
+    border: black 1px solid;
+}
