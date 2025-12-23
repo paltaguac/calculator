@@ -111,7 +111,7 @@ calc.addEventListener("click", (event) => {
     clearDisplay();
     appendDisplay(result);
     number1 = result;
-    console.log(number2);
+    //console.log(number2);
     operator = null;
   }
 
@@ -122,7 +122,7 @@ calc.addEventListener("click", (event) => {
     operator = eventId;
   }
 
-  console.log(number1);
-  console.log(number2);
-  console.log(operator);
+  //console.log(number1);
+  //console.log(number2);
+  //console.log(operator);
 });
